@@ -1,0 +1,11 @@
+# Project-Euler-dot-com
+Solutions to problems done on projecteuler.com
+#Largest prime factor
+import math
+x = 600851475143
+i = 2
+while i <= math.ceil(x ** .5):
+  if x%i == 0: 
+    x = x/i
+  i+=1
+print(x)
