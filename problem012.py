@@ -1,5 +1,6 @@
 # Project-Euler-dot-com
-Solutions to problems done on projecteuler.com
+#Solutions to problems done on projecteuler.com
+
 def factors(x):
     list =[]
     for i in range(1,int(round(x**.5+1))):
