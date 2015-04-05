@@ -1,5 +1,6 @@
-# Project-Euler-dot-com
-Solutions to problems done on projecteuler.com
+#Status: Solved
+
+#Problem:Work out the first ten digits of the sum of the following one-hundred 50-digit numbers(see below)
 n="""37107287533902102798797998220837590246510135740250
 46376937677490009712648124896970078050417018260538
 74324986199524741059474233309513058123726617309629
@@ -100,11 +101,13 @@ n="""37107287533902102798797998220837590246510135740250
 72107838435069186155435662884062257473692284509516
 20849603980134001723930671666823555245252804609722
 53503534226472524250874054075591789781264330331690"""
-
+#First I'll separate each number and put it into a list
 lista=n.split("\n")
 largesum=0
+#Then I'll add all numbers together
 for i in range(0,100):
     largesum += int(lista[i])
+#Lastly, the program will keep dividing the sum by 10(and getting rid of decimals) until we only have 10 digits left
 while largesum>(10**10):
     largesum=int(largesum//10)
 print(largesum)
