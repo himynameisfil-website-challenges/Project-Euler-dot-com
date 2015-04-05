@@ -1,8 +1,8 @@
-# Project-Euler-dot-com
-#Solutions to problems done on projecteuler.com
+# Status: Solved
 #Problem: The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 #Find the sum of all the primes below two million.
 
+#Solution:
 #This will look at all odd numbers between 3 and two million and add them together under the variable primesum... then add 2(technically it starts as 2 and add the other ones)
 primesum=2
 x=2000000
