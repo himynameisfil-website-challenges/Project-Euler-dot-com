@@ -1,5 +1,5 @@
-# Project-Euler-dot-com
-#Solutions to problems done on projecteuler.com
+#Status: Solved
+
 #Problem: The sum of the squares of the first ten natural numbers is,
 #12 + 22 + ... + 102 = 385
 #The square of the sum of the first ten natural numbers is,
